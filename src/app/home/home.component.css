@@ -1,0 +1,9 @@
+img {
+    max-height: auto;
+    max-width: 50%;
+    margin: auto;
+}
+#abtImg {
+    max-width: 100%;
+    max-height: auto;
+}

@@ -12,7 +12,7 @@ import { PostManagementComponent } from './post-management/post-management.compo
 import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
-  {path: '', component: HomeComponent}, //localhost:4200/login
+  {path: '', component: HomeComponent}, //localhost:4200/
   {path: 'login', component: LoginComponent}, //localhost:4200/login
   {path: 'register', component: RegisterComponent}, //localhost:4200/register
   {path: 'admin', component: AdminDashboardComponent}, //localhost:4200/admin
