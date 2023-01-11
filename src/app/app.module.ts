@@ -10,9 +10,10 @@ import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.compo
 import { UserManagementComponent } from './user-management/user-management.component';
 import { PostManagementComponent } from './post-management/post-management.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 const appRoutes: Routes = [
-  {path: '', component: HomeComponent}, //localhost:4200/
+  {path: 'home', component: HomeComponent}, //localhost:4200/
   {path: 'login', component: LoginComponent}, //localhost:4200/login
   {path: 'register', component: RegisterComponent}, //localhost:4200/register
   {path: 'admin', component: AdminDashboardComponent}, //localhost:4200/admin
@@ -29,7 +30,8 @@ const appRoutes: Routes = [
     AdminDashboardComponent,
     UserManagementComponent,
     PostManagementComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
