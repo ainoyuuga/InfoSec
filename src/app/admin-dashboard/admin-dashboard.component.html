@@ -1,1 +1,13 @@
-<p>admin-dashboard works!</p>
+<div class="dashboard-container">
+    <div class="row gx-lg-5 gx-xl-0">
+        <aside class="col-lg-2 col-xxl-1 d-none d-lg-block p-0">
+            <app-sidebar></app-sidebar>
+        </aside>
+        <section class="col-lg-10 col-xxl-11">
+            <div class="container-fluid py-5 pe-xxl-5">
+                <app-dashboard></app-dashboard>
+                <router-outlet></router-outlet>
+            </div>
+        </section>
+    </div>
+</div>
