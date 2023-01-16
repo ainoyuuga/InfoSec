@@ -14,7 +14,6 @@ import { PostManagementComponent } from './admin-dashboard/post-management/post-
 import { DashboardComponent } from './admin-dashboard/dashboard/dashboard.component';
 import { AdminLoginComponent } from './admin-dashboard/admin-login/admin-login.component';
 const appRoutes: Routes = [
-  {path: '', component: HomeComponent}, //localhost:4200/
   {path: 'home', component: HomeComponent}, //localhost:4200/home
   {path: 'login', component: LoginComponent}, //localhost:4200/login
   {path: 'register', component: RegisterComponent}, //localhost:4200/register
